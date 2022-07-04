@@ -2,13 +2,13 @@
 
 To begin, run the following command to download the Matchmove’s Demo App using Git:
 
-    git clone git@github.com:narenvphp/matchmove-demo-app..git
+    git clone git@github.com:narenvphp/matchmove-demo-app.git
 
 Then run the below commands to run the app
     
-    cd laravel-api-testing-starter
+    cd matchmove-demo-app
     composer install
-    cp .env.example .env`
+    cp .env.example .env
     php artisan key:generate
 
 Setting Up the Database:
